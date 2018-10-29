@@ -2,19 +2,19 @@
 
 Tested on macOS. 
 
-1. Fetch Boost libraries: 
+## 1. Fetch Boost libraries: 
 
 ```bash=
 buckaroo install 
 ```
 
-2. Fetch OpenSSL submodule: 
+## 2. Fetch OpenSSL submodule: 
 
 ```bash=
 git pull --recurse-submodules
 ```
 
-3. Re-point `.buckconfig` to external OpenSSL. 
+## 3. Re-point `.buckconfig` to external OpenSSL. 
 
 Change `/.buckconfig` like so: 
 
@@ -32,7 +32,7 @@ Change `buckaroo/official/boost/asio/.buckconfig` like so:
   openssl.openssl = ../../../../external/openssl
 ```
 
-4. Run the server example: 
+## 4. Run the server example: 
 
 ```bash=
 buck run //server:server#macosx-x86_64 0.0.0.0 3000 `pwd
