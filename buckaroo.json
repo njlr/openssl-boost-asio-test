@@ -1,0 +1,6 @@
+{
+  "name": "openssl-boost-asio-test",
+  "dependencies": {
+    "boost/asio": "1.63.0"
+  }
+}

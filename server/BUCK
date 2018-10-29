@@ -1,0 +1,16 @@
+cxx_binary(
+  name = 'server', 
+  header_namespace = '', 
+  headers = glob([
+    '*.hpp', 
+  ]), 
+  srcs = glob([
+    '*.cpp', 
+  ]), 
+  compiler_flags = [
+    '-std=c++11', 
+  ], 
+  deps = [
+    'boost.asio//:asio', 
+  ], 
+)
