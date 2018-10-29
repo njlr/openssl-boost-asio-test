@@ -16,7 +16,7 @@ git pull --recurse-submodules
 
 ## 3. Re-point `.buckconfig` to external OpenSSL. 
 
-Change `/.buckconfig` like so: 
+Change `.buckconfig` like so: 
 
 ```ini=
   ; ...
