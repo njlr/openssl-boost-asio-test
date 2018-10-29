@@ -35,6 +35,6 @@ Change `buckaroo/official/boost/asio/.buckconfig` like so:
 ## 4. Run the server example: 
 
 ```bash=
-buck run //server:server#macosx-x86_64 0.0.0.0 3000 `pwd
+buck run //server:server#macosx-x86_64 0.0.0.0 3000 `pwd`
 # Visit http://localhost:3000/README.md
 ```
