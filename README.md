@@ -11,7 +11,7 @@ buckaroo install
 2. Fetch OpenSSL submodule: 
 
 ```bash=
-git submodule update --recursive --remote
+git pull --recurse-submodules
 ```
 
 3. Re-point `.buckconfig` to external OpenSSL. 
